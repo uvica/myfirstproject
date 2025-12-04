@@ -12,19 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Myfirstproject">
         <activity
-            android:name=".SpotifyActivity"
-            android:exported="false"
-            android:label="@string/title_activity_spotify"
-            android:theme="@style/Theme.Myfirstproject" />
-        <activity
-            android:name=".SpotifyActivity.kt"
-            android:exported="false"
-            android:label="@string/title_activity_spotify"
-            android:theme="@style/Theme.Myfirstproject" />
-        <activity
-            android:name=".ProfileActivity"
+            android:name=".CardBackActivity"
             android:exported="true"
-            android:label="@string/title_activity_profile"
+            android:label="@string/title_activity_card_back"
             android:theme="@style/Theme.Myfirstproject">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,6 +22,44 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".CardActivity"
+            android:exported="true"
+            android:label="@string/title_activity_card"
+            android:theme="@style/Theme.Myfirstproject">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="true"
+            android:label="@string/title_activity_registration"
+            android:theme="@style/Theme.Myfirstproject">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.Myfirstproject">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SpotifyActivity"
+            android:exported="false"
+            android:label="@string/title_activity_spotify"
+            android:theme="@style/Theme.Myfirstproject" />
         <activity
             android:name=".ProfileActivity"
             android:exported="false"

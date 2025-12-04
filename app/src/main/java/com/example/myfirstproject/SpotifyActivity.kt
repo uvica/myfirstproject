@@ -77,7 +77,7 @@ fun SpotifyBody() {
                 Text("Lana Del Rey", color = Color.White, fontSize = 14.sp)
             }
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                ProfilePicture(size = 80.dp, imageRes = R.drawable.boy2)
+//                ProfilePicture(size = 80.dp, imageRes = R.drawable.boy2)
                 Text("Marvin Gaye", color = Color.White, fontSize = 14.sp)
             }
         }
@@ -109,8 +109,8 @@ fun SpotifyBody() {
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.spacedBy(16.dp)
         ) {
-            ReviewCard("Your Top Songs 2021",R.drawable.boy)
-            ReviewCard("Your Artists Revealed",R.drawable.boy2)
+            ReviewCard("Your Top Songs 2021",R.drawable.gitl)
+            ReviewCard("Your Artists Revealed",R.drawable.cat)
         }
 
         Spacer(modifier = Modifier.height(30.dp))
@@ -129,8 +129,8 @@ fun SpotifyBody() {
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.spacedBy(16.dp)
         ) {
-            AlbumCard("Ed Sheeran, Big Sean,\nJuice WRLD, Post Malone",R.drawable.boy2)
-            AlbumCard("Mitski, Tame Impala,\nGlass Animals, Charli XCX",R.drawable.boy)
+            AlbumCard("Ed Sheeran, Big Sean,\nJuice WRLD, Post Malone",R.drawable.hellokitty)
+            AlbumCard("Mitski, Tame Impala,\nGlass Animals, Charli XCX",R.drawable.light)
         }
     }
 }
