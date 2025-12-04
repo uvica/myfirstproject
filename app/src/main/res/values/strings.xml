@@ -6,4 +6,5 @@
     <string name="title_activity_registration">RegistrationActivity</string>
     <string name="title_activity_card">CardActivity</string>
     <string name="title_activity_card_back">CardBackActivity</string>
+    <string name="title_activity_card_view">CardViewActivity</string>
 </resources>
